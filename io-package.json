@@ -1,0 +1,34 @@
+{
+    "common": {
+        "name":                     "vis-deepcore",
+        "version": "0.0.2",
+        "title":                    "ioBroker Visualisation - deepcore Widgets",
+        "desc": {
+            "en":                   "deepcore Widgets for ioBroker.vis",
+            "de":                   "deepcore Widgets für ioBroker.vis",
+            "ru":                   "deepcore Widgets для ioBroker.vis"
+        },
+        "platform":                 "Javascript/Node.js",
+        "icon":                     "deepcore.png",
+        "enabled":                  true,
+        "mode":                     "once",
+        "extIcon":                  "https://github.com/ioBroker/ioBroker.js-controller/raw/master/adapter/example/admin/example.png",
+        "keywords":                 ["deepcore", "vis", "GUI", "graphical", "scada"],
+        "readme":                   "https://github.com/ioBroker/ioBroker.vis-deepcore/blob/master/README.md",
+        "authors": [
+            "DeepCore <devap@deepcore.eu>"
+        ],
+        "localLink":                "%web_protocol%://%ip%:%web_port%/vis/edit.html",
+        "license":                  "MIT",
+        "dependencies":             ["vis"],
+        "onlyWWW":                  true,
+        "singleton":                true,
+        "type":                     "vis",
+		"restartAdapters":          ["vis"]
+    },
+    "native": {
+        "dependencies":          []
+    },
+    "instanceObjects": [
+    ]
+}
