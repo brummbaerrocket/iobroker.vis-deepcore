@@ -3,7 +3,10 @@ ioBroker.vis-deepcore
 ============
 
 This is deepcore's widget set for ioBroker.vis.
-![Screenshot](img/widgets1.png)(img/widgets2.png)(img/widgets3.png)(img/widgets4.png)
+![Screenshot](img/widgets1.png)
+![Screenshot](img/widgets2.png)
+![Screenshot](img/widgets3.png)
+![Screenshot](img/widgets4.png)
 
 ## Changelog
 
