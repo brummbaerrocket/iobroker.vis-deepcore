@@ -7,3 +7,6 @@
     border-style: solid;
     border-color: #2ef12e;
 }
+.toggle {
+    border-color: grey;
+}
